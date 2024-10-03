@@ -7,7 +7,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 # Membaca data dari file CSV
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv("dashboard/main_data.csv")
 st.header('Wardita Proyek Analisis Data Dashboard :sparkles:')
 
 st.subheader('Pengaruh Hari Kerja Terhadap Jumlah Penyewa')
